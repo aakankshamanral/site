@@ -1,0 +1,58 @@
+.gallery-card {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(30, 41, 59, 0.6);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery-header h3 {
+  font-weight: 600;
+}
+
+.add-btn {
+  background: rgba(51, 65, 85, 0.7);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: rgba(71, 85, 105, 0.9);
+}
+
+.gallery-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.gallery-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.gallery-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+.about-card {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(30, 41, 59, 0.6);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.about-content {
+  margin-top: 12px;
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.7;
+  max-height: 160px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.about-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.about-content::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 5px;
+}
