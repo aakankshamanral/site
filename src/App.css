@@ -11,6 +11,7 @@
   flex: 1;
 }
 
+
 .right-half {
   flex: 1;
   display: flex;
@@ -19,6 +20,7 @@
   align-items: flex-start;
   justify-content: center;
 }
+
 
 @media (max-width: 768px) {
   .app-container {
